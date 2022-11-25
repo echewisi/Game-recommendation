@@ -1,0 +1,21 @@
+{% extends 'page/base.html' %}
+
+{% load static %}
+{%block title%}
+HOME
+{%endblock%}
+
+{%block content%}
+{%if request.user.is_authenticated%}
+    <h1>WELCOME {{request.user.username}} to GAMESHUB</h1>
+    
+    <hr>
+{%else%}
+<h1> WELCOME TO GAMESHUB</h1>
+<p> click here to register <a href="{%url 'register'%}">REGISTER</a> </p>
+<hr>
+{%endif%}
+
+
+<p >Find games of your choice on different gaming platforms</p>
+{%endblock %}

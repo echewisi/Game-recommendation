@@ -1,0 +1,12 @@
+record={'Action',
+ 'Adventure',
+ 'Fighting',
+ 'Misc',
+ 'Platform',
+ 'Puzzle',
+ 'Racing',
+ 'Role-Playing',
+ 'Shooter',
+ 'Simulation',
+ 'Sports',
+ 'Strategy'}
